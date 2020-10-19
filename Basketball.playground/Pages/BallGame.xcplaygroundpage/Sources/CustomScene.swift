@@ -162,7 +162,7 @@ public class CustomScene: SKScene, SKPhysicsContactDelegate {
         timerLabel.position.y = self.frame.height - 50
         
         self.setTimer()
-        self.timerValue = 15
+        self.timerValue = 30
         self.playSound("charge")
         self.addChild(background)
         self.addChild(backboard)
